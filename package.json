@@ -5,7 +5,9 @@
   "type": "module",
   "description": "React 19 + Vite 8 single-page app starter for Railway",
   "license": "MIT",
-  "engines": { "node": ">=24" },
+  "engines": {
+    "node": "24.x"
+  },
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
